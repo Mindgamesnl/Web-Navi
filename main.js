@@ -1,19 +1,16 @@
 setInterval(loop, 500);
-
 function loop() {
 var num = Math.floor(Math.random() * 6) + 1;
 if (num == 5) {
-  meld("HEY");
+  fnc_sound("HEY");
 } else if (num == 2) {
-  meld("LISTEN");
+  fnc_sound("LISTEN");
 } else if (num == 6) {
-  meld("HELLO");
+  fnc_sound("HELLO");
 } else {}
 }
-
-function meld(value) {
+function fnc_sound(value) {
   var audio = new Audio(value + ".mp3");
 audio.play();
-  
  // setTimeout(alert ("\n\n\n" + value + "!!!\n\n\n"), 3000);
 }
