@@ -12,5 +12,7 @@ if (num == 5) {
 }
 
 function meld(value) {
+  var audio = new Audio(value + ".mp3");
+audio.play();
   alert ("\n\n\n" + value + "!!!\n\n\n");
 }
