@@ -14,5 +14,6 @@ if (num == 5) {
 function meld(value) {
   var audio = new Audio(value + ".mp3");
 audio.play();
-  alert ("\n\n\n" + value + "!!!\n\n\n");
+  
+  setTimeout(alert ("\n\n\n" + value + "!!!\n\n\n"), 3000);
 }
