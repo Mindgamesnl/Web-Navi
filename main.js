@@ -1,4 +1,4 @@
-setInterval(loop, 50);
+setInterval(loop, 150);
 function loop() {
 var num = Math.floor(Math.random() * 6) + 1;
 if (num == 5) {
