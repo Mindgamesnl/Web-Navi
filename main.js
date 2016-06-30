@@ -7,10 +7,8 @@ if (num == 5) {
   fnc_sound("LISTEN");
 } else if (num == 6) {
   fnc_sound("HELLO");
-} else {}
-}
+} else {}}
 function fnc_sound(value) {
-  var audio = new Audio(value + ".mp3");
+var audio = new Audio(value + ".mp3");
 audio.play();
- // setTimeout(alert ("\n\n\n" + value + "!!!\n\n\n"), 3000);
 }
